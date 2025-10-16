@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavoro - Contact</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+     <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><img src="images/logo1.png" alt="Flavoro" class="logo"></a>
+      <nav class="nav" id="contactNav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggleContact" aria-label="Open navigation"><span class="hamburger"></span></button>
+    </div>
+    </header>
+
+    <!-- hero section  -->
+     <main>
+        <section class="contact-hero">
+            <div class="container contact-hero-grid">
+                <div class="contact-form-wrap">
+                    <h1>Contact <span>Us</span></h1>
+
+                    <!-- form -->
+                     <form action="" id="contactForm" class="contact-form">
+                        <label for="">
+                            <input type="text" name="from_name" placeholder="Your Name" required>
+                        </label>
+
+                        <label for="">
+                            <input type="email" name="reply_to" placeholder="Your Email" required>
+                        </label>
+
+                        <label for="">
+                            <textarea name="message" placeholder="your message" rows="6" required></textarea>
+                        </label>
+
+                        <div class="contact-actions">
+                            <button type="submit" class="btn gold">Send Message</button>
+                        </div>
+                     </form>
+                </div>
+
+                <aside class="cotact-info">
+                    <div class="info-card">
+                        <h4>Visit Us</h4>
+                        <p>123 Food Street, Gujarat</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Call</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>Email</h4>
+                        <p>Flavoro@gmail.com</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
+     </main>
+
+     <!-- fotter  -->
+      <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="images/logo1.png" alt="logo small" class="logo-sm">
+        <p class="muted">Taste That Speaks</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Team</h4>
+        <p>Flavoro Developers</p>
+        <p class="muted">Aarti Sondarva • Moumi Biswas • Yogita Janjar</p>
+      </div>
+    </div>
+    <div class="copyright center">© <span id="yearContact"></span> Flavoro</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/contact.js"></script>
+  <script>document.getElementById('yearContact').textContent = new Date().getFullYear();</script>
+</body>
+</html>

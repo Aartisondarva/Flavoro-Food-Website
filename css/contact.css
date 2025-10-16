@@ -1,0 +1,59 @@
+.contact-hero {
+    padding: 60px 0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent);
+}
+
+.contact-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 30px;
+    align-items: start;
+}
+
+.contact-form-wrap {
+    background: var(--card);
+    padding: 22px;
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+}
+
+.contact-form-wrap h1 {
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.04);
+    background: transparent;
+    color: var(--white);
+    margin-bottom: 12px;
+    outline: none;
+}
+
+.contact-actions {
+    text-align: right;
+
+}
+
+.info-card {
+    background: var(--card);
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    color: var(--muted);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+@media (max-width:900px) {
+    .contact-hero-grid {
+        grid-template-columns: 1fr;
+
+    }
+
+    .contact-form-wrap {
+        margin-bottom: 16px;
+    }
+}
