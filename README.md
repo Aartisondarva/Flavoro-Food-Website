@@ -39,7 +39,7 @@ It provides an elegant UI to browse menus, view the gallery, and place food orde
 
 > A responsive food website showcasing menu, gallery, and contact sections.
 
-![Website Preview](images/homepage-preview.png)
+![Website Preview](https://aartisondarva.github.io/Flavoro-Food-Website/)
 
 ---
 
