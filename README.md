@@ -42,11 +42,6 @@ It provides an elegant UI to browse menus, view the gallery, and place food orde
 ![Website Preview](https://aartisondarva.github.io/Flavoro-Food-Website/)
 
 ---
-
-## 📬 Contact
-
-📧 **aartisondarva3@gmail.com**
-
 ---
 
 ## ⚙️ How to Run Locally
